@@ -18,20 +18,29 @@ install Tailwind for nextjs using this command lines:
 -npx tailwindcss init -p
 -Configure your template paths
 -Add the Tailwind directives to your CSS
-
+```
 npm install
 npm run dev
+```
 The app should now be running on http://localhost:3000. You can make changes to the code and the app will automatically reload.
 
 # Available Scripts
 In the project directory, you can run:
+```
 `npm run dev`
+```
 Runs the app in development mode. The app will automatically reload if you make changes to the code.
+```
 `npm run build`
+```
 Builds the app for production. The output files will be stored in the out directory.
+```
 `npm run start`
+```
 Starts the app in production mode. You must first run npm run build to build the app.
+```
 `npm run lint`
+```
 Lints the code using ESLint.
 
 # Folder Structure
@@ -67,9 +76,10 @@ project
 # Third Party Library
 In this project we have used third party libray material ui 
 for implementing this run this command
+```
 `npm i @mui/material`
 `npm i @mui/icons`
-
+```
 From this library we have used Accordion and MenuOpen Icon For this Project and styles are used by Tailwind css
 
 These are the Components and Style that have been used to create the Modal App using Next.js 
